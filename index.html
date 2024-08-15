@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <title>きょうた誕生日おめでとう!!!</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        background: linear-gradient(to bottom right, #ffb3e6, #ff66b2, #ffccff);
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+      }
+
+      h1 {
+        font-size: 36px;
+        font-weight: bold;
+        color: #ffffff;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+        margin-top: 20px;
+        padding: 10px;
+        background: rgba(255, 99, 71, 0.7);
+        border-radius: 8px;
+      }
+
+      .scrolling-message {
+        position: absolute;
+        width: 100%;
+        height: 40px; /* メッセージの高さ */
+        line-height: 40px; /* メッセージの行の高さ */
+        overflow: hidden;
+        white-space: nowrap;
+        color: #ff6347; /* メッセージの色 */
+        font-size: 24px; /* メッセージのフォントサイズ */
+        text-align: center;
+      }
+
+      .message1 {
+        top: 80px;
+        background: rgba(255, 223, 186, 0.8);
+        animation: scrollMessage1 10s linear infinite;
+        animation-delay: 0s;
+        transform: translateX(100%);
+      }
+      .message2 {
+        top: 130px;
+        background: rgba(255, 204, 204, 0.8);
+        animation: scrollMessage2 12s linear infinite;
+        animation-delay: 2s;
+        transform: translateX(100%);
+      }
+      .message3 {
+        top: 180px;
+        background: rgba(204, 255, 204, 0.8);
+        animation: scrollMessage3 14s linear infinite;
+        animation-delay: 4s;
+        transform: translateX(100%);
+      }
+      .message4 {
+        top: 230px;
+        background: rgba(204, 204, 255, 0.8);
+        animation: scrollMessage4 16s linear infinite;
+        animation-delay: 6s;
+        transform: translateX(100%);
+      }
+      .message5 {
+        top: 280px;
+        background: rgba(255, 255, 204, 0.8);
+        animation: scrollMessage5 18s linear infinite;
+        animation-delay: 8s;
+        transform: translateX(100%);
+      }
+      .message6 {
+        top: 330px;
+        background: rgba(255, 204, 255, 0.8);
+        animation: scrollMessage6 20s linear infinite;
+        animation-delay: 10s;
+        transform: translateX(100%);
+      }
+      .message7 {
+        top: 380px;
+        background: rgba(204, 255, 255, 0.8);
+        animation: scrollMessage7 22s linear infinite;
+        animation-delay: 12s;
+        transform: translateX(100%);
+      }
+      .message8 {
+        top: 430px;
+        background: rgba(255, 255, 255, 0.8);
+        animation: scrollMessage8 24s linear infinite;
+        animation-delay: 14s;
+        transform: translateX(100%);
+      }
+      .message9 {
+        top: 480px;
+        background: rgba(255, 178, 178, 0.8);
+        animation: scrollMessage9 26s linear infinite;
+        animation-delay: 16s;
+        transform: translateX(100%);
+      }
+      .message10 {
+        top: 530px;
+        background: rgba(178, 255, 178, 0.8);
+        animation: scrollMessage10 28s linear infinite;
+        animation-delay: 18s;
+        transform: translateX(100%);
+      }
+      .message11 {
+        top: 580px;
+        background: rgba(178, 178, 255, 0.8);
+        animation: scrollMessage11 30s linear infinite;
+        animation-delay: 20s;
+        transform: translateX(100%);
+      }
+      .message12 {
+        top: 630px;
+        background: rgba(255, 255, 178, 0.8);
+        animation: scrollMessage12 32s linear infinite;
+        animation-delay: 22s;
+        transform: translateX(100%);
+      }
+      .message13 {
+        top: 680px;
+        background: rgba(255, 178, 255, 0.8);
+        animation: scrollMessage13 34s linear infinite;
+        animation-delay: 24s;
+        transform: translateX(100%);
+      }
+      .message14 {
+        top: 730px;
+        background: rgba(178, 255, 255, 0.8);
+        animation: scrollMessage14 36s linear infinite;
+        animation-delay: 26s;
+        transform: translateX(100%);
+      }
+      .message15 {
+        top: 780px;
+        background: rgba(255, 255, 255, 0.8);
+        animation: scrollMessage15 38s linear infinite;
+        animation-delay: 28s;
+        transform: translateX(100%);
+      }
+
+      @keyframes scrollMessage1 {
+        0% {
+          transform: translateX(100%);
+        }
+        100% {
+          transform: translateX(-100%);
+        }
+      }
+      @keyframes scrollMessage2 {
+        0% {
+          transform: translateX(100%);
+        }
+        100% {
+          transform: translateX(-100%);
+        }
+      }
+      @keyframes scrollMessage3 {
+        0% {
+          transform: translateX(100%);
+        }
+        100% {
+          transform: translateX(-100%);
+        }
+      }
+      @keyframes scrollMessage4 {
+        0% {
+          transform: translateX(100%);
+        }
+        100% {
+          transform: translateX(-100%);
+        }
+      }
+      @keyframes scrollMessage5 {
+        0% {
+          transform: translateX(100%);
+        }
+        100% {
+          transform: translateX(-100%);
+        }
+      }
+      @keyframes scrollMessage6 {
+        0% {
+          transform: translateX(100%);
+        }
+        100% {
+          transform: translateX(-100%);
+        }
+      }
+      @keyframes scrollMessage7 {
+        0% {
+          transform: translateX(100%);
+        }
+        100% {
+          transform: translateX(-100%);
+        }
+      }
+      @keyframes scrollMessage8 {
+        0% {
+          transform: translateX(100%);
+        }
+        100% {
+          transform: translateX(-100%);
+        }
+      }
+      @keyframes scrollMessage9 {
+        0% {
+          transform: translateX(100%);
+        }
+        100% {
+          transform: translateX(-100%);
+        }
+      }
+      @keyframes scrollMessage10 {
+        0% {
+          transform: translateX(100%);
+        }
+        100% {
+          transform: translateX(-100%);
+        }
+      }
+      @keyframes scrollMessage11 {
+        0% {
+          transform: translateX(100%);
+        }
+        100% {
+          transform: translateX(-100%);
+        }
+      }
+      @keyframes scrollMessage12 {
+        0% {
+          transform: translateX(100%);
+        }
+        100% {
+          transform: translateX(-100%);
+        }
+      }
+      @keyframes scrollMessage13 {
+        0% {
+          transform: translateX(100%);
+        }
+        100% {
+          transform: translateX(-100%);
+        }
+      }
+      @keyframes scrollMessage14 {
+        0% {
+          transform: translateX(100%);
+        }
+        100% {
+          transform: translateX(-100%);
+        }
+      }
+      @keyframes scrollMessage15 {
+        0% {
+          transform: translateX(100%);
+        }
+        100% {
+          transform: translateX(-100%);
+        }
+      }
+
+      canvas {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        pointer-events: none;
+      }
+
+      audio {
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Happy Birthday, きょうた!!</h1>
+    <div class="scrolling-message message1">誕生日おめでとう！！</div>
+    <div class="scrolling-message message2">ハッピーバースデー！！</div>
+    <div class="scrolling-message message3">お祝いします！！</div>
+    <div class="scrolling-message message4">
+      素晴らしい一年になりますように！！
+    </div>
+    <div class="scrolling-message message5">楽しい一日を過ごしてね！！</div>
+    <div class="scrolling-message message6">良い一日を！！</div>
+    <div class="scrolling-message message7">心からお祝い申し上げます！！</div>
+    <div class="scrolling-message message8">健康と幸せをお祈りします！！</div>
+    <div class="scrolling-message message9">いつもありがとう！！</div>
+    <div class="scrolling-message message10">素敵な時間を過ごしてね！！</div>
+    <div class="scrolling-message message11">
+      最高の誕生日になりますように！！
+    </div>
+    <div class="scrolling-message message12">
+      笑顔がいっぱいの日になりますように！！
+    </div>
+    <div class="scrolling-message message13">これからもよろしくね！！</div>
+    <div class="scrolling-message message14">お祝いの気持ちを込めて！！</div>
+    <div class="scrolling-message message15">
+      素敵な一年になりますように！！
+    </div>
+    <canvas id="field"></canvas>
+    <audio
+      id="background-music"
+      src="はっぴいばあすでいつーゆー.mp3"
+      autoplay
+      loop
+    ></audio>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const canvas = document.getElementById("field");
+        const ctx = canvas.getContext("2d");
+        const img = new Image();
+        img.src = "誕生日ケーキ-preview.png";
+
+        canvas.width = window.innerWidth;
+        canvas.height = window.innerHeight;
+
+        const numConfetti = 100;
+        const confetti = [];
+
+        function createConfetti() {
+          for (let i = 0; i < numConfetti; i++) {
+            confetti.push({
+              x: Math.random() * canvas.width,
+              y: Math.random() * canvas.height,
+              size: Math.random() * 10 + 5,
+              speedX: Math.random() * 2 - 1,
+              speedY: Math.random() * 5 + 1,
+              color: `hsl(${Math.random() * 360}, 100%, 70%)`,
+            });
+          }
+        }
+
+        function drawConfetti() {
+          ctx.clearRect(0, 0, canvas.width, canvas.height);
+          confetti.forEach((c) => {
+            ctx.beginPath();
+            ctx.arc(c.x, c.y, c.size, 0, Math.PI * 2);
+            ctx.fillStyle = c.color;
+            ctx.fill();
+            c.x += c.speedX;
+            c.y += c.speedY;
+            if (c.y > canvas.height) {
+              c.y = 0;
+              c.x = Math.random() * canvas.width;
+            }
+          });
+        }
+
+        function drawImage() {
+          const x = canvas.width / 2;
+          const y = canvas.height / 2;
+          const imgWidth = img.width;
+          const imgHeight = img.height;
+
+          ctx.drawImage(
+            img,
+            x - imgWidth / 2,
+            y - imgHeight / 2,
+            imgWidth,
+            imgHeight
+          );
+        }
+
+        function animate() {
+          drawConfetti();
+          drawImage();
+          requestAnimationFrame(animate);
+        }
+
+        img.onload = function () {
+          createConfetti();
+          animate();
+        };
+      });
+    </script>
+  </body>
+</html>
